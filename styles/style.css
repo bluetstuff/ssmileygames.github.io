@@ -10,8 +10,8 @@ iframe {
 }
 
 .game {
-    width: 80%;
-    height: 80vh;
+    width: 200%;
+    height: 200vh;
     margin: auto;
     display: flex;
     justify-content: center;
