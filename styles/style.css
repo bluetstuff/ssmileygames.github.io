@@ -9,6 +9,11 @@ iframe {
   margin: 15px;
 }
 
-game {
-  height: 1000;
+.game {
+  width: 200%;
+  height: 200%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  lign-items: center;
 }
