@@ -10,10 +10,21 @@ iframe {
 }
 
 .game {
-    width: 80%;
-    height: 80vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.btn {
+  background: #ff9900;
+  border: 5px solid #8d3800;
+  border-radius: 20px;
+  box-shadow: 0 15px #4d1100;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
 }
