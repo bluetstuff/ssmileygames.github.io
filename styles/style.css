@@ -19,12 +19,23 @@ iframe {
 }
 
 button.btn {
-  background: #ff9900;
-  border: 5px solid #8d3800;
+  background: #f5c104;
+  border: 5px solid #d48b0a;
   border-radius: 20px;
-  box-shadow: 0 15px #4d1100;
+  box-shadow: 0 15px #602a00;
   padding: 10px 20px;
   font-size: 20px;
   color: #ffffff;
   margin: 10px;
+  transition: 0.5s;
+}
+
+button.btn:hover {
+    box-shadow: 0 10px #4d1100;
+    transform: translateY(5px);
+}
+
+button.btn:active {
+    box-shadow: 0 7px #4d1100;
+    transform: translateY(8px);
 }
