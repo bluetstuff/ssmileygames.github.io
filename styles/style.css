@@ -31,11 +31,13 @@ button.btn {
 }
 
 button.btn:hover {
-    box-shadow: 0 10px #4d1100;
-    transform: translateY(5px);
+  background: #f5b804;
+  border: 5px solid #d4830a;
+  box-shadow: 0 10px #4d1100;
+  transform: translateY(5px);
 }
 
 button.btn:active {
-    box-shadow: 0 7px #4d1100;
-    transform: translateY(8px);
+  box-shadow: 0 7px #4d1100;
+  transform: translateY(8px);
 }
