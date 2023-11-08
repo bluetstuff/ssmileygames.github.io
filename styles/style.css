@@ -7,11 +7,14 @@ body {
 iframe {
   border-radius: 25px;
   margin: 15px;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  border: 0px;
 }
 
 .game {
-  width: 80%;
-  height: 80vh;
+  width: 50%;
+  height: 500px;
   margin: auto;
   display: flex;
   justify-content: center;
